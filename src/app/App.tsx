@@ -1,5 +1,10 @@
 import React from "react";
+import { NavBar } from "../features/NavBar";
 
 export default function App() {
-  return <div>App</div>;
+  return (
+    <React.Fragment>
+      <NavBar>Test</NavBar>
+    </React.Fragment>
+  );
 }
